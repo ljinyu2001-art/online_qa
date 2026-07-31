@@ -1,0 +1,249 @@
+body{
+
+    margin:0;
+
+    background:#f5f7fb;
+
+    font-family:
+    "Microsoft YaHei";
+
+}
+
+
+
+.page{
+
+
+    width:1200px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:30px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.05);
+
+
+}
+
+
+
+.header{
+
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+
+}
+
+
+
+.title{
+
+
+    font-size:36px;
+
+    font-weight:bold;
+
+    color:#16325c;
+
+
+}
+
+
+
+.title span{
+
+
+    display:inline-block;
+
+    margin-left:15px;
+
+    padding:5px 15px;
+
+    background:#e9f0ff;
+
+    color:#3971ff;
+
+    border-radius:20px;
+
+    font-size:18px;
+
+
+}
+
+
+
+.ask-btn{
+
+
+    background:#23447d;
+
+    color:white;
+
+    border:0;
+
+    padding:15px 30px;
+
+    border-radius:30px;
+
+    font-size:18px;
+
+}
+
+
+
+.table-box{
+
+
+    margin-top:40px;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+
+}
+
+
+
+.table-header,
+.row{
+
+
+    display:grid;
+
+    grid-template-columns:
+    80px 1fr 150px 220px 220px;
+
+
+    align-items:center;
+
+
+}
+
+
+
+.table-header{
+
+
+    padding:20px;
+
+    background:#f5f8ff;
+
+    color:#557;
+
+
+}
+
+
+
+
+.row{
+
+
+    padding:25px 20px;
+
+    border-bottom:1px solid #eee;
+
+    font-size:18px;
+
+
+}
+
+
+
+.question-title{
+
+
+    cursor:pointer;
+
+}
+
+
+
+.question-title:hover{
+
+
+    color:#3971ff;
+
+
+}
+
+
+
+.count{
+
+
+    background:#edf3ff;
+
+    padding:8px 18px;
+
+    border-radius:20px;
+
+    color:#3971ff;
+
+
+}
+
+
+
+.edit,
+.delete{
+
+
+    border:0;
+
+    padding:10px 20px;
+
+    border-radius:20px;
+
+    margin-right:10px;
+
+}
+
+
+
+.edit{
+
+
+    background:#edf3ff;
+
+    color:#3971ff;
+
+
+}
+
+
+
+.delete{
+
+
+    background:#ffecec;
+
+    color:#ff4d4f;
+
+
+}
+
+
+
+.footer{
+
+
+    margin-top:35px;
+
+    text-align:right;
+
+    color:#667;
+
+
+}
